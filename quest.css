@@ -1,0 +1,31 @@
+.calc{
+    margin: 100px auto;
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 18px;
+    box-shadow: 6px 6px 6px grey;
+    user-select: none;
+}
+.btn{
+    width: 70px;
+    height: 70px;
+    background-color:grey ;
+    text-align: center;
+    border-radius: 50%;
+    user-select: none;
+    font-size: large;
+    border: 1px;
+    border-color: rgb(75, 75, 75);
+    cursor: auto;
+}
+.btns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+#Action{
+    background-color: rgb(255, 100, 100);
+}
