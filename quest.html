@@ -6,47 +6,47 @@
 </head>
 <body>
     <div class="calc">
-            <div class="item input">
-                <input class="screen" type="text" id="screen" readonly>
-            </div>
+        <div class="item input">
+            <input class="screen" type="text" id="screen" readonly>
+        </div>
         <div class="btns" id="btns">
 
-                <button class="btn 7" id="Num">7</button>
+                <button class="btn 7"  onclick="btn('7')">7</button>
 
-                <button class="btn 8" id="Num">8</button>  
+                <button class="btn 8"  onclick="btn('8')">8</button>  
 
-                <button class="btn 9" id="Num">9</button>
+                <button class="btn 9"  onclick="btn('9')">9</button>
 
-                <button class="btn *" id="Action">*</button>
+                <button class="btn *" id="Action" onclick="btn('*')">*</button>
 
-                <button class="btn 4" id="Num">4</button>
+                <button class="btn 4"  onclick="btn('4')">4</button>
 
-                <button class="btn 5" id="Num">5</button>
+                <button class="btn 5"  onclick="btn('5')">5</button>
+ 
+                <button class="btn 6"  onclick="btn('6')">6</button>
 
-                <button class="btn 6" id="Num">6</button>
+                <button class="btn /" id="Action" onclick="btn('/')">/</button>
 
-                <button class="btn /" id="Action">/</button>
+                <button class="btn 1"  onclick="btn('1')">1</button>
 
-                <button class="btn 1" id="Num">1</button>
+                <button class="btn 2"  onclick="btn('2')">2</button>
 
-                <button class="btn 2" id="Num">2</button>
+                <button class="btn 3" onclick="btn('3')">3</button>
 
-                <button class="btn 3" id="Num">3</button>
+                <button class="btn +" id="Action" onclick="btn('+')">+</button>
 
-                <button class="btn +" id="Action">+</button>
+                <button class="btn 0" onclick="btn('0')">0</button>
 
-                <button class="btn 0" id="Num">0</button>
+                <button class="btn XX" id="Square" onclick="square()">XX</button>
 
-                <button class="btn XX" id="Square">XX</button>
+                <button class="btn ." onclick="btn('.')">.</button>
 
-                <button class="btn ." id="Discharge">.</button>
+                <button class="btn -" id="Action" onclick="btn('-')">-</button>
 
-                <button class="btn -" id="Action">-</button>
+                <button class="btn clear" id="Clear" onclick="clearscreen()">C</button>
 
-                <button class="btn Clear" id="Clear">C</button>
-
-                <button class="btn Res" id="Result">=</button>
+                <button class="btn res" id="Result" onclick="btn('=')">=</button>
         </div>    
-    </div>
+    </div> 
     <script src="quest.js"></script>
 </body>

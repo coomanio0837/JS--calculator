@@ -1,9 +1,9 @@
 .calc{
     margin: 100px auto;
-    width: 400px;
-    height: 550px;
+    width: 400px ;
+    height: 550px ;
     border-radius: 20px;
-    background-color: black;
+    background-color: rgb(48, 48, 48);
     color: white;
     padding: 18px;
     box-shadow: 6px 6px 6px grey;
@@ -17,9 +17,10 @@
     border-radius: 50%;
     user-select: none;
     font-size: large;
-    border: 1px;
-    border-color: rgb(75, 75, 75);
-    cursor: auto;
+    border-color: rgb(48, 48, 48);
+    box-shadow: rgb(48, 48, 48) ;
+    cursor: grabbing;
+    box-shadow: 3px;
 }
 .btns{
     display: grid;
@@ -29,3 +30,22 @@
 #Action{
     background-color: rgb(255, 100, 100);
 }
+.screen{
+    height: 50px;
+    background-color: rgb(235, 235, 235);
+    color: rgb(0, 0, 0);
+    text-align: right;
+    width: 382px;
+    font-size: large;
+    border: 2px solid gray;
+    font-family: Arial;
+    display: grid;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+    #Clear{
+    background-color: rgb(255, 255, 103);
+    }
+    #Result{
+    background-color: rgb(57, 57, 255);
+    }
