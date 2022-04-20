@@ -18,6 +18,7 @@ function clearscreen(){
     sign = '';
     End = false;
 }
+module.exports = { clearscreen }
 
 function btn(mark){
     var screen = document.getElementById('screen');
@@ -46,7 +47,7 @@ if(act.includes(mark)){
 if(mark === '='){
     switch (sign) {
         case "*":
-            a = a * b;
+            a = +a * +b;
             break;
         case "/":
             if(b === "0"){
@@ -56,13 +57,13 @@ if(mark === '='){
                 sign = '';
                 return;
             }
-            a = a / b;
+            a = +a / +b;
             break;
         case "+":
             a = (+a) + (+b);
             break;
         case "-":
-            a = a - b;
+            a = +a - +b;
             break;
     }
     End = true;

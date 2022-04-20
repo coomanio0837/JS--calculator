@@ -1,0 +1,27 @@
+{
+  "name": "calc.js",
+  "version": "1.0.0",
+  "description": "quest",
+  "main": "quest.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coomanio0837/quest.git"
+  },
+  "keywords": [
+    "test",
+    "mocha",
+    "calc.js"
+  ],
+  "author": "Anton Grimov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coomanio0837/quest/issues"
+  },
+  "homepage": "https://github.com/coomanio0837/quest#readme",
+  "devDependencies": {
+    "mocha": "^9.2.2"
+  }
+}
