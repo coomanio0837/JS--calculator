@@ -1,4 +1,4 @@
 123123
-<hr>
+<hr color="black">
 qwe123
 <hr>
