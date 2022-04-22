@@ -18,6 +18,6 @@ Future updates:
 </ul>
 <hr>
 Authors:
-<ul>Anton Grimov
+<ul>&#8857 Anton Grimov
 <li>Github: https://github.com/coomanio0837 </li>
 </ul>
